@@ -9,8 +9,8 @@ resource "google_container_cluster" "primary" {
   ]
 
   master_auth {
-    username = "levep"
-    password = "q1w2e3r4t5y6u7i8o9"
+    username = "<you user name for cluster>"
+    password = "<password 16 lenght>"
   }
 
   node_config {
